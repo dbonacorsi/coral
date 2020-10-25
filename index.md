@@ -2,7 +2,7 @@
 
 Download and unpack the Edge TPU runtime:
 
-```
+```markdown
 curl -O https://dl.google.com/coral/edgetpu_api/edgetpu_runtime_20200728.zip
 
 unzip edgetpu_runtime_20200728.zip
@@ -10,7 +10,7 @@ unzip edgetpu_runtime_20200728.zip
 
 Install the Edge TPU runtime:
 
-```
+```markdown
 cd edgetpu_runtime
 
 sudo bash install.sh
