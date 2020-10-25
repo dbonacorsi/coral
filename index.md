@@ -1,29 +1,5 @@
 ## Getting started
 
-Download and unpack the Edge TPU runtime:
-
-```markdown
-curl -O https://dl.google.com/coral/edgetpu_api/edgetpu_runtime_20200728.zip
-
-unzip edgetpu_runtime_20200728.zip
-```
-
-Install the Edge TPU runtime:
-
-```markdown
-cd edgetpu_runtime
-
-sudo bash install.sh
-```
-
-The installation script will ask whether you want to enable the maximum operating frequency. Running at the maximum operating frequency increases the inferencing speed but also increases power consumption and causes the USB Accelerator to become very hot. If you're not certain your application requires increased performance, you should type "N" to use the reduced operating frequency.
-
-You can read more about the performance setting in the USB Accelerator datasheet.
-
-Now connect the USB Accelerator to your computer using the provided USB 3.0 cable.
-
-Then continue to install the TensorFlow Lite library.
-
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
